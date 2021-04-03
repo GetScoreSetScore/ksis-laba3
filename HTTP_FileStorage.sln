@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30105.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HTTP_FileStorage_Server", "HTTP_FileStorage_Server\HTTP_FileStorage_Server.csproj", "{8C9D3820-1A56-484E-9F74-492AD2C53A39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTTP_FileStorage_Client", "HTTP_FileStorage_Client\HTTP_FileStorage_Client.csproj", "{EA1F11F7-74EF-455F-9B2D-FAB971A2A80F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C9D3820-1A56-484E-9F74-492AD2C53A39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C9D3820-1A56-484E-9F74-492AD2C53A39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C9D3820-1A56-484E-9F74-492AD2C53A39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C9D3820-1A56-484E-9F74-492AD2C53A39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA1F11F7-74EF-455F-9B2D-FAB971A2A80F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA1F11F7-74EF-455F-9B2D-FAB971A2A80F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA1F11F7-74EF-455F-9B2D-FAB971A2A80F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA1F11F7-74EF-455F-9B2D-FAB971A2A80F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42B122AC-63B8-4CCC-960F-8882B7C97DEB}
+	EndGlobalSection
+EndGlobal
