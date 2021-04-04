@@ -17,9 +17,9 @@ namespace HTTP_FileStorage_Client
         static string ServerUrl = "http://127.0.0.1:8080";
         static void Main(string[] args)
         {
-            Console.WriteLine("Введите ip сервера:");
+            Console.WriteLine("Enter server ip:");
             string address = Console.ReadLine();
-            Console.WriteLine("Введите порт сервера:");
+            Console.WriteLine("Enter server port:");
             string port = Console.ReadLine();
             ServerUrl = "http://"+address+":"+port+"/";
             while (true)
